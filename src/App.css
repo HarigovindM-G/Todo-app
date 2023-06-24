@@ -1,0 +1,82 @@
+* {
+  font-size: 1rem;
+  box-sizing: border-box;
+  font-family: 'Belanosima', sans-serif;
+}
+body {
+  background: #1363ec;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.App {
+  min-width: 20rem;
+  padding: 1rem;
+  background: #4282f0;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+form > button {
+  background: #1363ec;
+  height: 3rem;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+
+}
+form > input {
+  color: aliceblue;
+  height: 3rem;
+  background: none;
+  outline: none;
+  border: 1px solid #0550fa;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+.App > h1 {
+  font-size: 1.75rem;
+  color: aliceblue;
+}
+.notcompleted {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  background: #1363ec;
+  border: none;
+  border-radius: 10px;
+}
+.notcompleted > svg {
+  margin-top: 5px;
+}
+.completed > svg {
+  margin-top: 5px;
+}
+.completed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  text-decoration: line-through;
+  background: #1363ec;
+  border: none;
+  border-radius: 10px;
+}
+.parawrap {
+  width: 95%;
+}
+form > input::placeholder {
+  color: rgb(151, 151, 151);
+}
