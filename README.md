@@ -1,3 +1,6 @@
+# Link to the app
+You can access the todo web app at https://harigovindm-g.github.io/Todo-app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
